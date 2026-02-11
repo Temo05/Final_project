@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Test Suite" parallel="false">
+
+    <test name="Temuri Jibgashvili - UI Tests">
+        <classes>
+            <class name="com.automationexercise.ui.TemuriJibgashviliTests"/>
+        </classes>
+    </test>
+
+    <test name="Giorgi Gegenava - UI Tests">
+        <classes>
+            <class name="com.automationexercise.ui.GiorgiGegenavaTests"/>
+        </classes>
+    </test>
+
+    <test name="Temuri Jibgashvili - API Tests">
+        <classes>
+            <class name="com.automationexercise.api.TemuriJibgashviliAPITests"/>
+        </classes>
+    </test>
+
+    <test name="Giorgi Gegenava - API Tests">
+        <classes>
+            <class name="com.automationexercise.api.GiorgiGegenavaAPITests"/>
+        </classes>
+    </test>
+
+</suite>
